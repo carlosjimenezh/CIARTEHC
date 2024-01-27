@@ -3,7 +3,7 @@
     --text-hover-color: #C2DED1;
     --text-color: #333;
     --header-color: #8F993E;
-    --footer-color: #385F71;
+    --footer-color: #8F993E;
 }
 
 * {
@@ -48,15 +48,18 @@ header nav a:hover {
 footer {
     background-color: var(--footer-color);
     color: white;
-    padding: 15px;
 }
 
 footer .social-wrapper img {
-    width: 50px;
+    width: 35px;
 }
 
 .logo {
     width: 250px;
+}
+
+footer .logo{
+    width: 200px;
 }
 
 .back-img {
