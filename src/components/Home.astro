@@ -1,8 +1,10 @@
 ---
 import Header from "./Header.astro"
 import Footer from "./Footer.astro"
+import Carousel from "./Carousel.jsx"
+import '../styles/home.css'
 ---
 
 <Header/>
-<h1>Home</h1>
+<Carousel client:load />
 <Footer />
