@@ -1,0 +1,56 @@
+---
+import type { Code } from "astro:components"
+import Crew from "./Crew.astro"
+const EQUIPO = [
+    {
+        nombre: 'Jorge Arturo Martínez Ibarra',
+        cargo: 'Director del CIARTEHC',
+        prefijo: 'Dr. ',
+        ubicacion: 'Edificio P-planta baja',
+        tel: '01 (341) 575 2222',
+        extension: '46073',
+        email: 'Jorge.martinez@cusur.udg.mx',
+        avatar: 'equipo/jorge.png',
+    } ,
+    {
+        nombre: 'Rosa Elena Arellano Montoya',
+        cargo: 'Profesora Titular del CIARTEHC',
+        prefijo: 'Dra. ',
+        ubicacion: 'Edificio P-planta baja',
+        tel: '01 (341) 575 2222',
+        extension: '46073',
+        email: 'rosa.arellano@cusur.udg.mx',
+        avatar: 'equipo/rosa.png',
+    } ,
+    {
+        nombre: 'Edith Rosario Covarrubias Rodríguez',
+        cargo: 'Técnica Académica del CIARTEHC',
+        prefijo: 'Lic. ',
+        ubicacion: 'Edificio P-planta baja',
+        tel: '01 (341) 575 2222',
+        extension: '46073',
+        email: '',
+        avatar: 'equipo/edith.png',
+    } ,
+    {
+        nombre: 'Alonso Sánchez Fabián',
+        cargo: 'Técnico Académico del CIARTEHC',
+        prefijo: 'Lic. ',
+        ubicacion: 'Edificio P-planta baja',
+        tel: '01 (341) 575 2222',
+        extension: '46073',
+        email: 'alonso.sanchez@cusur.udg.mx',
+        avatar: 'equipo/alonso.png',
+    } ,
+]
+---
+
+<section class="text-center max-w-[1300px] mx-auto p-4">
+    <h1>Equipo ciartehc</h1>
+    <!-- usuario -->
+    <div class="flex justify-between gap-4 flex-wrap">
+        {EQUIPO.map ( item => (
+            <Crew {...item} />
+        ))}
+    </div>
+</section>

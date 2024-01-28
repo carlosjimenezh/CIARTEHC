@@ -1,9 +1,10 @@
 :root {
-    --background-color: #C6DBD0;
+    --background-color: #FFE1B1;
     --text-hover-color: #C2DED1;
     --text-color: #333;
     --header-color: #8F993E;
     --footer-color: #8F993E;
+    --btn-color: #B12028
 }
 
 * {
@@ -68,5 +69,19 @@ footer .logo{
     background-size: cover;
 }
 h1 {
-    font-size: 30px;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+section {
+    margin: 100px 0
+}
+
+.btn {
+    padding: 10px;
+    background-color: var(--btn-color);
+    border-radius: 20px;
+    color: white;
+    min-width: min(200px, 100%)
 }

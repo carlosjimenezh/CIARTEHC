@@ -1,0 +1,18 @@
+---
+const { nombre, cargo, prefijo, ubicacion, tel, extension, email, avatar } = Astro.props
+---
+
+<article class="flex -space-x-1 overflow-hidden justify-center p-2 transition-transform transform-gpu hover:scale-110">
+    <img class="inline-block h-[250px] w-[250px] rounded-full ring-4 ring-white bg-white object-contain relative " src={avatar} alt="">
+    <div class="absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-90 transition-opacity bg-white rounded-full">
+        <p class="p-2 font-bold leading-tight text-sm">{prefijo + nombre}</p>
+        <p class="p-2 text-sm">{cargo}</p>
+    </div>
+</article>
+
+<style>
+    article:nth-child(1) img {background-color: #8F993E;}
+    article:nth-child(2) img {background-color: #C2DED1;}
+    article:nth-child(3) img {background-color: #B12028;}
+    article:nth-child(4) img {background-color: #202945;}
+</style>
