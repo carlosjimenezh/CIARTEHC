@@ -1,14 +1,27 @@
 ---
-
+import SocialMediaIcon from "./SocialMediaIcon.astro"
+import Facebook from "../icons/Facebook.astro"
+import Instagram from "../icons/Instagram.astro"
+import Mail from "../icons/Mail.astro"
+import Youtube from "../icons/Youtube.astro"
 ---
 
 <footer class="p-4">
     <div class="grid grid-cols-3 py-10">
         <img class="logo self-center" src="logo.png" alt="">
         <article class="social-wrapper flex items-center justify-center gap-20">
-            <img src="fb.svg" alt=""> <!-- hacer componente para link de redes -->
-            <img src="ig.svg" alt="">
-            <img src="mail.svg" alt="">
+            <SocialMediaIcon href="https://www.facebook.com/CUSurUdeG">
+                <Facebook class="w-10" style="fill:white"/>
+            </SocialMediaIcon>
+            <SocialMediaIcon href="https://www.instagram.com/cusur_udeg/">
+                <Instagram class="w-10" style="fill:white"/>
+            </SocialMediaIcon>
+            <SocialMediaIcon href="www.google.com">
+                <Mail class="w-10" style="fill:white"/>
+            </SocialMediaIcon>
+            <SocialMediaIcon href="https://www.youtube.com/CUSurTelevision">
+                <Youtube class="w-10" style="fill:white"/>
+            </SocialMediaIcon>
         </article>
         <article class="text-right">
             <strong class="block">Teléfono</strong>
