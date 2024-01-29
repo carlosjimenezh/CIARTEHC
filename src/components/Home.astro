@@ -1,7 +1,7 @@
 ---
 import Header from "./Header.astro"
 import Footer from "./Footer.astro"
-import Carousel from "./Carousel.jsx"
+import BannerCarousel from "./BannerCarousel.jsx"
 import QuienesSomos from "./QuienesSomos.astro"
 import MasSobreNosotros from "./MasSobreNosotros.astro"
 import Equipo from "./Equipo.astro"
@@ -10,7 +10,7 @@ import '../styles/home.css'
 ---
 
 <Header/>
-<Carousel client:load />
+<BannerCarousel client:load />
 <QuienesSomos />
 <MasSobreNosotros />
 <Equipo />

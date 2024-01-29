@@ -12,11 +12,11 @@ export default () => {
   return (
     <Swiper
       // install Swiper modules
+      id="banner-swiper"
       modules={[Pagination, A11y, Autoplay]}
       spaceBetween={0}
       slidesPerView={1}
       autoplay={{ delay: 3000 }}
-      navigation
       loop='true'
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
