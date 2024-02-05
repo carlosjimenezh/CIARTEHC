@@ -20,8 +20,8 @@ export default () => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide className='back-img rounded-md content-end cursor-pointer' style={{ backgroundImage: 'url("banner/img1.jpg")' }}>
         <div className='bg-white p-4 h-40 opacity-85 rounded-b-md'>

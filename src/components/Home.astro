@@ -1,6 +1,4 @@
 ---
-import Header from "./Header.astro"
-import Footer from "./Footer.astro"
 import BannerCarousel from "./BannerCarousel.jsx"
 import QuienesSomos from "./QuienesSomos.astro"
 import MasSobreNosotros from "./MasSobreNosotros.astro"
@@ -9,10 +7,8 @@ import Contacto from "./Contacto.astro"
 import '../styles/home.css'
 ---
 
-<Header/>
 <BannerCarousel client:load />
 <QuienesSomos />
 <MasSobreNosotros />
 <Equipo />
 <Contacto />
-<Footer />
