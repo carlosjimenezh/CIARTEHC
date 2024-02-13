@@ -2,8 +2,8 @@
     --background-color: #FFE1B1;
     --text-hover-color: #C2DED1;
     --text-color: #333;
-    --header-color: #8F993E;
-    --footer-color: #8F993E;
+    --header-color: #E8BB6E;
+    --footer-color: #E8BB6E;
     --btn-color: #B12028
 }
 
@@ -11,39 +11,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, sans-serif;
+    font-family: 'Rubik Variable', system-ui, sans-serif;
 }
 
 body {
-    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 a {
     text-decoration: none;
 }
 
-
-header {
-    background-color: var(--header-color);
-    border-bottom: 10px solid white;
-    padding: 15px;
-}
-
-header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-header nav a {
-    color: white;
-    text-align: center;
-    width: 200px;
-}
-
-header nav a:hover {
-    color: var(--text-hover-color)
+h1, h2, h3 {
+    color: #232943;
 }
 
 footer {
@@ -72,6 +52,7 @@ h1 {
     font-size: 45px;
     text-transform: uppercase;
     margin-bottom: 25px;
+    font-weight: bold;
 }
 
 section {
