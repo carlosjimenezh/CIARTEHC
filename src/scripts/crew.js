@@ -1,6 +1,6 @@
 import EQUIPO from '../data/equipo.json'
 
-document.querySelector('#equipo-ciartehc').addEventListener('click', (e) =>{
+document.querySelector('#equipo').addEventListener('click', (e) =>{
     const crewElement = e.target.closest('.crew')
     
     if (crewElement) {

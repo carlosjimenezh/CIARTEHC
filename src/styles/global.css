@@ -12,7 +12,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Variable', system-ui, sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin: 200px;
 }
+
 
 body {
     color: var(--text-color);
@@ -20,6 +23,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
 }
 
 h1, h2, h3 {
@@ -36,7 +43,7 @@ footer .social-wrapper img {
 }
 
 .logo {
-    width: 250px;
+    width: 180px;
 }
 
 footer .logo{
@@ -51,7 +58,7 @@ footer .logo{
 h1 {
     font-size: 45px;
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-weight: bold;
 }
 

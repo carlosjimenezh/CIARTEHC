@@ -10,6 +10,7 @@ import 'swiper/css/autoplay'
 
 export default () => {
   return (
+    <>
     <Swiper
       // install Swiper modules
       id='sections-swiper'
@@ -87,5 +88,6 @@ export default () => {
         </div>
       </SwiperSlide>
     </Swiper>
+    </>
   )
 }
