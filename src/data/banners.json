@@ -4,5 +4,29 @@
         "imagen": "banner/festival_neaves.jpeg",
         "titulo": "Próximos eventos",
         "url": ""
+    },
+    {
+        "id": "2",
+        "imagen": "banner/habilidades_1.jpeg",
+        "titulo": "Habilidades para la vida",
+        "url": ""
+    },
+    {
+        "id": "3",
+        "imagen": "banner/cartel_pacmy.jpeg",
+        "titulo": "",
+        "url": ""
+    },
+    {
+        "id": "4",
+        "imagen": "banner/teatro.jpg",
+        "titulo": "Compañia de teatro",
+        "url": ""
+    },
+    {
+        "id": "5",
+        "imagen": "banner/habilidades_2.jpeg",
+        "titulo": "Habilidades para la vida",
+        "url": ""
     }
 ]

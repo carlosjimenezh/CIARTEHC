@@ -3,6 +3,7 @@
 }
 .swiper-slide {
     display: grid;
+    align-content: end;
 }
 .swiper-pagination-bullet {
     background-color: white;
@@ -16,4 +17,7 @@
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: #B12028;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: #B12028
 }

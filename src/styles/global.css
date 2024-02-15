@@ -2,8 +2,8 @@
     --background-color: #FFE1B1;
     --text-hover-color: #C2DED1;
     --text-color: #333;
-    --header-color: #E8BB6E;
-    --footer-color: #E8BB6E;
+    --header-color: #00A896;
+    --footer-color: #F87060;
     --btn-color: #B12028
 }
 
@@ -31,6 +31,8 @@ strong {
 
 h1, h2, h3 {
     color: #232943;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 footer {
@@ -57,13 +59,18 @@ footer .logo{
 }
 h1 {
     font-size: 45px;
-    text-transform: uppercase;
     margin-bottom: 50px;
-    font-weight: bold;
+}
+h2 {
+    font-size: 20px;
 }
 
 section {
-    margin: 250px 0
+    margin: 350px 0
+}
+
+section#quienes-somos {
+    margin: 250px auto 350px;
 }
 
 .btn {

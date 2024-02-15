@@ -2,9 +2,9 @@
 const { id, nombre, cargo, prefijo, ubicacion, tel, extension, email, avatar } = Astro.props
 ---
 
-<article data-id={id} class="flex -space-x-1 overflow-hidden justify-center p-2 transition-transform transform-gpu hover:scale-110 cursor-pointer">
-    <img class="inline-block h-[250px] w-[250px] rounded-full ring-4 ring-white bg-white object-contain relative " src={avatar} alt="">
-    <div class="crew absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-90 transition-opacity bg-white rounded-full">
+<article data-id={id} class="flex -space-x-1 overflow-hidden justify-center p-2 transition-transform transform-gpu hover:scale-105 cursor-pointer">
+    <img class="inline-block h-[250px] w-[250px] rounded-full bg-white object-contain relative " src={avatar} alt="">
+    <div class="crew absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-90 hover:bg-gray-200 transition-opacity bg-white rounded-full">
         <p class="p-2 font-bold leading-tight text-sm">{prefijo + nombre}</p>
         <p class="p-2 text-sm">{cargo}</p>
     </div>

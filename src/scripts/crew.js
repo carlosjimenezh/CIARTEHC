@@ -19,7 +19,7 @@ const showCrewModal = (id) => {
     console.log(crewElement)
     const { nombre, cargo, prefijo, avatar, ubicacion, tel, extension, email, semblanza } = crewElement
     document.querySelector('#modal').innerHTML = `
-    <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="relative z-[100]" aria-labelledby="modal-title" role="dialog" aria-modal="true">
 
       <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
     
