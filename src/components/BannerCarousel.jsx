@@ -2,6 +2,7 @@
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import BANNERS from '../data/banners.json'
+import React from 'react'
 
 // Import Swiper styles
 import 'swiper/css'
@@ -9,7 +10,7 @@ import 'swiper/css/pagination'
 import 'swiper/css/navigation'
 import 'swiper/css/autoplay'
 
-export default () => {
+const BannerCarousel = () => { 
   return (
     <>
       <section id='productos'>
@@ -43,3 +44,7 @@ export default () => {
     </>
   )
 }
+
+BannerCarousel.displayName = 'BannerCarousel'
+
+export default BannerCarousel
