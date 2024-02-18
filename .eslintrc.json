@@ -23,18 +23,18 @@
     "rules": {
         "indent": [
             "warn",
-            "tab"
+            "4"
         ],
         "linebreak-style": [
-            "error",
+            "warn",
             "unix"
         ],
         "quotes": [
-            "error",
+            "warn",
             "single"
         ],
         "semi": [
-            "error",
+            "warn",
             "never"
         ]
     }
