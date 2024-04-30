@@ -10,4 +10,47 @@
     <p class="text-pretty">
         Ofrecerá de manera permanente <strong>diplomados, cursos y talleres</strong> para todas aquellas personas que deseen actualizar sus saberes y pretendan introducirse paulatinamente en las disciplinas de las <strong>artes, las humanidades y la comunicación.</strong> Dado a su carácter regional, nacional e internacional, realizará eventos donde se promueva el intercambio de experiencias, reflexiones, análisis, discusiones y aportes sobre temas esenciales que den vida a propuestas relacionadas con las <strong>artes, las humanidades y la comunicación.</strong>
     </p>
+    <img src="1.png" alt="" class="icon">
+    <img src="3.png" alt="" class="icon">
+    <img src="2.svg" alt="" class="icon">
+    <img src="4.svg" alt="" class="icon">
 </section>
+
+
+
+<style>
+    section {
+        position: relative;
+    }
+    .icon {
+        position: absolute;
+        bottom: -100px;
+        width: 60px;
+    }
+    .icon:nth-of-type(even) {
+        animation: moveUpDown 3s infinite alternate;
+    }
+    .icon:nth-of-type(odd) {
+        animation: moveDownUp 3s infinite alternate;
+    }
+    .icon:nth-of-type(1) {left: -20px;}
+    .icon:nth-of-type(2) {left: 30%;}
+    .icon:nth-of-type(3) {right: 30%;}
+    .icon:nth-of-type(4) {right: -20px;}
+    @keyframes moveUpDown {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(10px);
+        }
+    }
+    @keyframes moveDownUp {
+        0% {
+            transform: translateY(10px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+</style>

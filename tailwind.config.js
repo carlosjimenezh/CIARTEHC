@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'difusion': "url('/banner/festival_neaves.jpeg')",
+        'teatro': "url('/bg-teatro.jpg')",
+        'radio': "url('/bg-radio.jpg')",
       }
     },
   },

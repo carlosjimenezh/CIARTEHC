@@ -15,7 +15,7 @@ const BannerCarousel = () => {
     <>
       <section id='productos'>
         <h1 className='text-center p-4'>Productos</h1>
-        <div className='pl-[100px] pr-[100px]'>
+        <div className='max-w-[1350px] m-auto'>
         <Swiper
         // install Swiper modules
         id="banner-swiper"
